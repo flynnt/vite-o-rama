@@ -1,4 +1,4 @@
-dateModified: 1639583576
+dateModified: 1639587583
 email:
   fromEmail: ted.flynn@hey.com
   fromName: Vite-O-Rama
@@ -8,6 +8,11 @@ meta:
     1acca259-1a15-45ba-ae23-378f2bf9bb3f: Vite-O-Rama # Vite-O-Rama
     018d2303-6ebc-4d18-89b4-69c5c4711d99: Vite-O-Rama # Vite-O-Rama
     fefc2507-5a34-43ee-b9ca-9e3fee865033: Common # Common
+plugins:
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

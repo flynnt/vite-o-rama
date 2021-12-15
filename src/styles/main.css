@@ -1,5 +1,126 @@
+@font-face {
+  font-display: fallback;
+  font-family: Aeonik;
+  src:
+    url("../fonts/Aeonik-Regular.woff2") format("woff2"),
+    url("../fonts/Aeonik-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Aeonik;
+  src:
+    url("../fonts/Aeonik-RegularItalic.woff2") format("woff2"),
+    url("../fonts/Aeonik-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Aeonik;
+  src:
+    url("../fonts/Aeonik-Medium.woff2") format("woff2"),
+    url("../fonts/Aeonik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Aeonik;
+  src:
+    url("../fonts/Aeonik-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Aeonik-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Aeonik;
+  src:
+    url("../fonts/Aeonik-Bold.woff2") format("woff2"),
+    url("../fonts/Aeonik-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: Aeonik;
+  src:
+    url("../fonts/Aeonik-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Aeonik-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Input Mono';
+  src:
+    url("../fonts/Input-Mono-Regular.woff2") format("woff2"),
+    url("../fonts/Input-Mono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Input Mono';
+  src:
+    url("../fonts/Input-Mono-Italic.woff2") format("woff2"),
+    url("../fonts/Input-Mono-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Input Mono';
+  src:
+    url("../fonts/Input-Mono-Medium.woff2") format("woff2"),
+    url("../fonts/Input-Mono-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Input Mono';
+  src:
+    url("../fonts/Input-Mono-Medium-Italic.woff2") format("woff2"),
+    url("../fonts/Input-Mono-Medium-Italic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Input Mono';
+  src:
+    url("../fonts/Input-Mono-Bold.woff2") format("woff2"),
+    url("../fonts/Input-Mono-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Input Mono';
+  src:
+    url("../fonts/Input-Mono-Bold-Italic.woff2") format("woff2"),
+    url("../fonts/Input-Mono-Bold-Italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
 body {
   background-color: #000000;
+  background-image: url("../images/test-img.jpeg");
   color: #ffffff;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Aeonik;
 }

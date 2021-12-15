@@ -24,6 +24,7 @@
     "craftcms/redactor": "^2.6.1",
     "nystudio107/craft-seomatic": "^3.3.12",
     "nystudio107/craft-typogrify": "^1.1",
+    "nystudio107/craft-vite": "^1.0",
     "putyourlightson/craft-blitz": "^3.10.0",
     "vlucas/phpdotenv": "^3.4.0",
     "yiisoft/yii2-redis": "^2.0"

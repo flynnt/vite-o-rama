@@ -4,7 +4,7 @@
   "description": "Tests Craft CMS and Vite JS integrations",
   "main": "index.js",
   "scripts": {
-    "start": "vite dev",
+    "dev": "vite dev",
     "build": "vite build"
   },
   "engines": {
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.5",
+    "@vitejs/plugin-legacy": "^1.6.4",
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -36,7 +37,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
     "vite": "^2.7.2",
-    "vite-plugin-restart": "^0.0.2",
-    "@vitejs/plugin-legacy": "^1.6.4"
+    "vite-plugin-imagemin": "^0.4.6",
+    "vite-plugin-restart": "^0.0.2"
   }
 }
