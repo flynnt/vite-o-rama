@@ -1,7 +1,7 @@
-import Hello from "./modules/Hello";
+import Hello from './modules/Hello';
 
 const ModuleManifest = {
-  Hello
+  Hello,
 };
 
 export default ModuleManifest;

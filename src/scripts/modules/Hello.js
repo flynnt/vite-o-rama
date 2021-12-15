@@ -1,6 +1,6 @@
 export default class Hello {
   static defaults = {
-    timeOfDay: "morning"
+    timeOfDay: 'morning',
   };
 
   constructor(element, options) {

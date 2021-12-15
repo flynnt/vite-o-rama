@@ -14,22 +14,16 @@
 {# Output
 {# --------------------------------------------------------- #}
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ craft.app.language }}" class="no-js">
+<html lang="{{ craft.app.language }}" class="no-js">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% include '_partials/head' %}
   </head>
 
-  <body class="{{ bodyClass | default('') }}">
-    <a class="skip-link" href="#main-content">Skip to content</a>
+  <body>
 
-    <main id="main-content" tabindex="-1">
+    <main id="main-content">
       {% block content %}{% endblock %}
     </main>
-
-    <script src="{{ rev('scripts/vendors~main.js') }}"></script>
-    <script src="{{ rev('scripts/main.js') }}"></script>
   </body>
 </html>

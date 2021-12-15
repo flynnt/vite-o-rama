@@ -1,48 +1,18 @@
-dateModified: 1627073939
+dateModified: 1639583576
 email:
-  fromEmail: dev@onedesigncompany.com
-  fromName: 'Craft Starter'
+  fromEmail: ted.flynn@hey.com
+  fromName: Vite-O-Rama
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    5a65d799-e124-43c8-bcd9-66db8a636252: 'Public Schema' # Public Schema
-    49af70e5-d7a8-4ef3-8972-beaa63fb1554: Common # Common
-    a8fddc7a-6bfe-4458-b4e3-85c6e20d9394: 'Craft Starter' # Craft Starter
-    fa640f1e-84c7-4ea7-8070-f0649bde137e: 'Craft Starter' # Craft Starter
-plugins:
-  assetrev:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  aws-s3:
-    edition: standard
-    enabled: true
-    schemaVersion: '1.2'
-  blitz:
-    edition: standard
-    enabled: true
-    schemaVersion: 3.10.0
-  environment-label:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-  redactor:
-    edition: standard
-    enabled: true
-    schemaVersion: 2.3.0
-  seomatic:
-    edition: standard
-    enabled: true
-    schemaVersion: 3.0.10
-  typogrify:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
+    1acca259-1a15-45ba-ae23-378f2bf9bb3f: Vite-O-Rama # Vite-O-Rama
+    018d2303-6ebc-4d18-89b4-69c5c4711d99: Vite-O-Rama # Vite-O-Rama
+    fefc2507-5a34-43ee-b9ca-9e3fee865033: Common # Common
 system:
   edition: solo
   live: true
-  name: 'Craft Starter'
-  schemaVersion: 3.7.7
+  name: Vite-O-Rama
+  schemaVersion: 3.7.8
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

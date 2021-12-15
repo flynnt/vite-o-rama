@@ -10,31 +10,54 @@
 
 use craft\helpers\App;
 
-$isDev = App::env('ENVIRONMENT') === 'dev';
-$isProd = App::env('ENVIRONMENT') === 'production';
-
 return [
-    // Default Week Start Day (0 = Sunday, 1 = Monday...)
-    'defaultWeekStartDay' => 1,
+    // Global settings
+    '*' => [
+        // Default Week Start Day (0 = Sunday, 1 = Monday...)
+        'defaultWeekStartDay' => 1,
 
-    // Whether generated URLs should omit "index.php"
-    'omitScriptNameInUrls' => true,
+        // Whether generated URLs should omit "index.php"
+        'omitScriptNameInUrls' => true,
 
-    // The URI segment that tells Craft to load the control panel
-    'cpTrigger' => App::env('CP_TRIGGER') ?: 'admin',
+        // Enable CSRF Protection (recommended)
+        'enableCsrfProtection' => true,
 
-    // The secure key Craft will use for hashing and encrypting data
-    'securityKey' => App::env('SECURITY_KEY'),
+        // Dont allow more than 25 revisions otherwise DB gets huge
+        'maxRevisions' => 25,
 
-    // Whether Dev Mode should be enabled (see https://craftcms.com/guides/what-dev-mode-does)
-    'devMode' => $isDev,
+        // Control Panel trigger word
+        'cpTrigger' => 'admin',
 
-    // Whether administrative changes should be allowed
-    'allowAdminChanges' => $isDev,
+        // The secure key Craft will use for hashing and encrypting data
+        'securityKey' => App::env('SECURITY_KEY'),
 
-    // Whether crawlers should be allowed to index pages and following links
-    'disallowRobots' => !$isProd,
+        // Don't allow admin changes by default
+        'allowAdminChanges' => false,
 
-	// Dont allow more than 25 revisions otherwise DB gets huge
-    'maxRevisions' => 25,
+        // Disable system and plugin updates in the Control Panel
+        'allowUpdates' => false,
+
+        'aliases' => [
+            '@webroot' => dirname(__DIR__) . App::env('APP_WEBROOT'),
+        ],
+
+        'enableTemplateCaching' => false,
+    ],
+
+    // Dev environment settings
+    'dev' => [
+        // Dev Mode (see https://craftcms.com/guides/what-dev-mode-does)
+        'devMode' => true,
+
+        // Only allow admin changes in dev so project config doesn't get out of sync
+        'allowAdminChanges' => true,
+    ],
+
+    // Staging environment settings
+    'staging' => [
+    ],
+
+    // Production environment settings
+    'production' => [
+    ],
 ];

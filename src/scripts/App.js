@@ -1,16 +1,14 @@
-import ModuleManifest from "./ModuleManifest";
+import ModuleManifest from './ModuleManifest';
 
 export default class App {
   static defaults = {
-    moduleAttribute: "data-module",
-    optionsAttribute: "data-module-options"
+    moduleAttribute: 'data-module',
+    optionsAttribute: 'data-module-options',
   };
 
   constructor(scope = document.documentElement, config = {}) {
     this.config = { ...App.defaults, ...config };
     this.registerModules(scope);
-
-    return this;
   }
 
   /**
@@ -28,12 +26,14 @@ export default class App {
       try {
         options = JSON.parse(module.getAttribute(this.config.optionsAttribute));
       } catch (error) {
+        // eslint-disable-next-line no-console
         console.error(
           `Error parsing module options for module ${name}: ${error}`
         );
       }
 
       if (!ModuleManifest[name]) {
+        // eslint-disable-next-line no-console
         console.error(
           `Module "${name}" does not exist in the manifest. Did you forget to add it?`
         );
