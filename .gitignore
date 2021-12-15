@@ -1,0 +1,34 @@
+# SYSTEM
+.DS_Store
+Thumbs.db
+
+
+# BUILD FILES
+/node_modules
+/yarn-error.log
+/npm-debug.log
+
+
+# VM
+.vagrant
+
+# TEMP
+.cache
+*.log
+/logs/
+/tmp
+
+# MISC FILES
+.idea
+.project
+.settings
+*.esproj
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.tmproject
+.vscode
+config.codekit3
+prepros-6.config
+
+
