@@ -1,0 +1,74 @@
+{
+  "scripts/main-legacy.js": {
+    "file": "assets/app-legacy.91f27325.js",
+    "src": "scripts/main-legacy.js",
+    "isEntry": true,
+    "assets": [
+      "assets/Aeonik-Regular.8c5b03b5.woff2",
+      "assets/Aeonik-Regular.43897edd.woff",
+      "assets/Aeonik-RegularItalic.324a920b.woff2",
+      "assets/Aeonik-RegularItalic.4a8286ce.woff",
+      "assets/Aeonik-Medium.d47b9272.woff2",
+      "assets/Aeonik-Medium.ccf33b27.woff",
+      "assets/Aeonik-MediumItalic.c81daf8b.woff2",
+      "assets/Aeonik-MediumItalic.80c92c66.woff",
+      "assets/Aeonik-Bold.bebb12e9.woff2",
+      "assets/Aeonik-Bold.def8187c.woff",
+      "assets/Aeonik-BoldItalic.62ad0148.woff2",
+      "assets/Aeonik-BoldItalic.64a9abe5.woff",
+      "assets/Input-Mono-Regular.6aaf613c.woff2",
+      "assets/Input-Mono-Regular.680282c2.woff",
+      "assets/Input-Mono-Italic.05822dfd.woff2",
+      "assets/Input-Mono-Italic.9de406bf.woff",
+      "assets/Input-Mono-Medium.758f32a7.woff2",
+      "assets/Input-Mono-Medium.97ae3248.woff",
+      "assets/Input-Mono-Medium-Italic.978d9632.woff2",
+      "assets/Input-Mono-Medium-Italic.67e0d4e5.woff",
+      "assets/Input-Mono-Bold.dc785ed6.woff2",
+      "assets/Input-Mono-Bold.e3f2e7d3.woff",
+      "assets/Input-Mono-Bold-Italic.29fc7377.woff2",
+      "assets/Input-Mono-Bold-Italic.67263297.woff",
+      "assets/br.e21c2bd6.png"
+    ]
+  },
+  "../\u0000vite/legacy-polyfills": {
+    "file": "assets/polyfills-legacy.cdc4c183.js",
+    "src": "../\u0000vite/legacy-polyfills",
+    "isEntry": true
+  },
+  "scripts/main.js": {
+    "file": "assets/app.a8417dcc.js",
+    "src": "scripts/main.js",
+    "isEntry": true,
+    "css": [
+      "assets/app.3d1e9918.css"
+    ],
+    "assets": [
+      "assets/Aeonik-Regular.8c5b03b5.woff2",
+      "assets/Aeonik-Regular.43897edd.woff",
+      "assets/Aeonik-RegularItalic.324a920b.woff2",
+      "assets/Aeonik-RegularItalic.4a8286ce.woff",
+      "assets/Aeonik-Medium.d47b9272.woff2",
+      "assets/Aeonik-Medium.ccf33b27.woff",
+      "assets/Aeonik-MediumItalic.c81daf8b.woff2",
+      "assets/Aeonik-MediumItalic.80c92c66.woff",
+      "assets/Aeonik-Bold.bebb12e9.woff2",
+      "assets/Aeonik-Bold.def8187c.woff",
+      "assets/Aeonik-BoldItalic.62ad0148.woff2",
+      "assets/Aeonik-BoldItalic.64a9abe5.woff",
+      "assets/Input-Mono-Regular.6aaf613c.woff2",
+      "assets/Input-Mono-Regular.680282c2.woff",
+      "assets/Input-Mono-Italic.05822dfd.woff2",
+      "assets/Input-Mono-Italic.9de406bf.woff",
+      "assets/Input-Mono-Medium.758f32a7.woff2",
+      "assets/Input-Mono-Medium.97ae3248.woff",
+      "assets/Input-Mono-Medium-Italic.978d9632.woff2",
+      "assets/Input-Mono-Medium-Italic.67e0d4e5.woff",
+      "assets/Input-Mono-Bold.dc785ed6.woff2",
+      "assets/Input-Mono-Bold.e3f2e7d3.woff",
+      "assets/Input-Mono-Bold-Italic.29fc7377.woff2",
+      "assets/Input-Mono-Bold-Italic.67263297.woff",
+      "assets/br.e21c2bd6.png"
+    ]
+  }
+}
