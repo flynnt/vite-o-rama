@@ -1,3 +1,4 @@
+import eslint from '@rollup/plugin-eslint';
 import legacy from '@vitejs/plugin-legacy';
 import ViteRestart from 'vite-plugin-restart';
 
@@ -14,6 +15,11 @@ export default ({ command }) => ({
     },
   },
   plugins: [
+    {
+      ...eslint(),
+      enforce: 'pre',
+      apply: 'build',
+    },
     legacy({
       targets: ['defaults', 'not IE 11'],
     }),
